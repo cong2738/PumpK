@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\연속 부분 수열 합의 개수\연속 부분 수열 합의 개수\main.cpp(5,27): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\연속 부분 수열 합의 개수\연속 부분 수열 합의 개수\main.cpp(20,26): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  연속 부분 수열 합의 개수.vcxproj -> C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\연속 부분 수열 합의 개수\x64\Debug\연속 부분 수열 합의 개수.exe
