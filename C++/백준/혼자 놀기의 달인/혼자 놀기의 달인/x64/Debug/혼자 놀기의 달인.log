@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\혼자 놀기의 달인\혼자 놀기의 달인\main.cpp(9,19): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\혼자 놀기의 달인\혼자 놀기의 달인\main.cpp(15,24): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\혼자 놀기의 달인\혼자 놀기의 달인\main.cpp(16,32): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\혼자 놀기의 달인\혼자 놀기의 달인\main.cpp(17,21): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  혼자 놀기의 달인.vcxproj -> C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\혼자 놀기의 달인\x64\Debug\혼자 놀기의 달인.exe
