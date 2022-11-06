@@ -1,8 +1,4 @@
-#include<iostream>
-#include <string>
-#include <vector>
-#include <map>
-#include <sstream>
+#include<bits/stdc++.h>
 using namespace std;
 
 vector<int> solution(vector<int> fees, vector<string> records) {
@@ -24,7 +20,6 @@ vector<int> solution(vector<int> fees, vector<string> records) {
         tMap[pr.first] += 60 * 23 + 59 - pr.second;
     }
     for (auto ct : tMap) {
-        cout << ct.first << ':' << ct.second << endl;
         if (ct.second > fees[0]) ct.second -= fees[0];
         else ct.second = 0;
         answer.push_back(fees[1] + ceil(float(ct.second) / fees[2]) * fees[3]);
