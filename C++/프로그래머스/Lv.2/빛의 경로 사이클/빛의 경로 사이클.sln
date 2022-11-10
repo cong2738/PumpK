@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "빛의 경로 사이클", "빛의 경로 사이클\빛의 경로 사이클.vcxproj", "{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}.Debug|x64.ActiveCfg = Debug|x64
+		{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}.Debug|x64.Build.0 = Debug|x64
+		{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}.Debug|x86.ActiveCfg = Debug|Win32
+		{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}.Debug|x86.Build.0 = Debug|Win32
+		{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}.Release|x64.ActiveCfg = Release|x64
+		{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}.Release|x64.Build.0 = Release|x64
+		{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}.Release|x86.ActiveCfg = Release|Win32
+		{A27FF0AB-16CB-4E5D-8B0E-B502DF31A630}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B98C8827-A7EE-4485-92A1-B66358919395}
+	EndGlobalSection
+EndGlobal
