@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "최대 최소", "최대 최소\최대 최소.pyproj", "{1ED6CBCD-B94F-4243-BEEF-39A4CBBEE11B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ED6CBCD-B94F-4243-BEEF-39A4CBBEE11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED6CBCD-B94F-4243-BEEF-39A4CBBEE11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B839B24F-778E-4FFF-A94F-F405C3CBEC9A}
+	EndGlobalSection
+EndGlobal

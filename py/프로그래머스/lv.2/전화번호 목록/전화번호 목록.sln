@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "전화번호 목록", "전화번호 목록\전화번호 목록.pyproj", "{FBA9F115-33AC-451F-8EF2-47C30535955E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBA9F115-33AC-451F-8EF2-47C30535955E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA9F115-33AC-451F-8EF2-47C30535955E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0494FAF-EA66-4520-9249-39AFF04D9AA2}
+	EndGlobalSection
+EndGlobal

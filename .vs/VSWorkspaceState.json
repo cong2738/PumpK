@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\C++",
-    "\\C++\\백준",
-    "\\C++\\프로그래머스\\Lv.2"
+    "\\C++\\프로그래머스",
+    "\\C++\\프로그래머스\\Lv.2",
+    "\\C++\\프로그래머스\\Lv.2\\주차 요금 계산"
   ],
-  "SelectedNode": "\\C++\\백준",
+  "SelectedNode": "\\C++\\프로그래머스\\Lv.2",
   "PreviewInSolutionExplorer": false
 }
