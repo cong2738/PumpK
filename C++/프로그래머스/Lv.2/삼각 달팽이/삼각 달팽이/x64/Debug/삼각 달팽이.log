@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\삼각 달팽이\삼각 달팽이\main.cpp(16,1): warning C4267: '=': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+  삼각 달팽이.vcxproj -> C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\삼각 달팽이\x64\Debug\삼각 달팽이.exe

@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\쿼드압축 후 개수 세기\쿼드압축 후 개수 세기\main.cpp(4,50): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\쿼드압축 후 개수 세기\쿼드압축 후 개수 세기\main.cpp(11,40): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\쿼드압축 후 개수 세기\쿼드압축 후 개수 세기\main.cpp(17,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  쿼드압축 후 개수 세기.vcxproj -> C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\쿼드압축 후 개수 세기\x64\Debug\쿼드압축 후 개수 세기.exe

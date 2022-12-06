@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "행렬의 덧셈", "행렬의 덧셈\행렬의 덧셈.pyproj", "{96138344-F131-499E-8EA2-C15C0D1D3306}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96138344-F131-499E-8EA2-C15C0D1D3306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96138344-F131-499E-8EA2-C15C0D1D3306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32DDDFC2-22EA-4930-B3D5-ED8F1360BEB9}
+	EndGlobalSection
+EndGlobal

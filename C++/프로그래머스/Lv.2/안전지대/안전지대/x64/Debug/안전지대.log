@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\안전지대\안전지대\main.cpp(5,19): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\안전지대\안전지대\main.cpp(6,22): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\안전지대\안전지대\main.cpp(13,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\안전지대\안전지대\main.cpp(13,38): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\안전지대\안전지대\main.cpp(19,35): warning C4244: '+=': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  안전지대.vcxproj -> C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.2\안전지대\x64\Debug\안전지대.exe

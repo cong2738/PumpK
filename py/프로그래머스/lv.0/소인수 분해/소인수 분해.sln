@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "소인수 분해", "소인수 분해\소인수 분해.pyproj", "{089471C4-FCB0-4631-B15E-8E90A0701CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089471C4-FCB0-4631-B15E-8E90A0701CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089471C4-FCB0-4631-B15E-8E90A0701CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84BFFA69-20CF-4C1C-8C1B-A7E2C8B10B15}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "자릿수 더하기", "자릿수 더하기\자릿수 더하기.pyproj", "{16C52722-3A17-4970-BE21-3AC29B8D6A8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16C52722-3A17-4970-BE21-3AC29B8D6A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C52722-3A17-4970-BE21-3AC29B8D6A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22904F09-909B-42B7-A37B-86ED7242C61D}
+	EndGlobalSection
+EndGlobal

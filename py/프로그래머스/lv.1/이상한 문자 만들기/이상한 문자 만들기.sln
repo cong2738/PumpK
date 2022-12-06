@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "이상한 문자 만들기", "이상한 문자 만들기\이상한 문자 만들기.pyproj", "{2B0C9763-2D80-414F-B1FC-776E9D93142B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0C9763-2D80-414F-B1FC-776E9D93142B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0C9763-2D80-414F-B1FC-776E9D93142B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FD245EC-042C-4F00-AE43-030F63B94ADC}
+	EndGlobalSection
+EndGlobal

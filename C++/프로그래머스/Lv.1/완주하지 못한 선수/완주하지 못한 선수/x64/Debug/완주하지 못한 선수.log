@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.1\완주하지 못한 선수\완주하지 못한 선수\main.cpp(4,5): error C2065: 'unordered_set': 선언되지 않은 식별자입니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.1\완주하지 못한 선수\완주하지 못한 선수\main.cpp(4,19): error C2275: 'std::string': 형식 대신 식이 필요합니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\프로그래머스\Lv.1\완주하지 못한 선수\완주하지 못한 선수\main.cpp(4,27): error C2062: 예기치 않은 'int' 형식입니다.

@@ -86,7 +86,6 @@ void dfs(int cnt, int idx, int n) {
             ryan[idx] = 0;
         }
         dfs(cnt, idx + 1, n);
-
     }
 }
 

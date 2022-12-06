@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "나누어 떨어지는 숫자 배열", "나누어 떨어지는 숫자 배열\나누어 떨어지는 숫자 배열.pyproj", "{540DB38A-EDBC-4798-9E20-F703ADD57505}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{540DB38A-EDBC-4798-9E20-F703ADD57505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540DB38A-EDBC-4798-9E20-F703ADD57505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C37010C6-E6C2-4C44-9D78-061275EE91D7}
+	EndGlobalSection
+EndGlobal

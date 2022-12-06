@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "숫자 짝꿍", "숫자 짝꿍\숫자 짝꿍.pyproj", "{F6348440-5F6A-4B87-B73A-4CBA8F9B5189}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6348440-5F6A-4B87-B73A-4CBA8F9B5189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6348440-5F6A-4B87-B73A-4CBA8F9B5189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F73039C3-10BF-4F0D-A507-09B6A35E37AC}
+	EndGlobalSection
+EndGlobal
