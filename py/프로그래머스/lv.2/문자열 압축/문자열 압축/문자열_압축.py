@@ -8,11 +8,9 @@ def solution(s):
         while index < L:
             time = 0
             data  = s[index: index+i]
-            nextdata = s[index + i: index + i + i]
-            while(data == nextdata):
+            while(data ==  s[index + i: index + i + i]):
                 time+=1
                 index += i
-                nextdata = s[index + i: index + i + i]
             if(time == 0):
                 ziped += data
                 index += i

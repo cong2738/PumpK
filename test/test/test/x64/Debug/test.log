@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\pumpk\Documents\GitHub\PumpK\test\test\test\main.cpp(9,8): error C2065: 'age': 선언되지 않은 식별자입니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\test\test\test\main.cpp(9,16): error C2015: 상수에 문자가 너무 많습니다.
+C:\Users\pumpk\Documents\GitHub\PumpK\test\test\test\main.cpp(10,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.

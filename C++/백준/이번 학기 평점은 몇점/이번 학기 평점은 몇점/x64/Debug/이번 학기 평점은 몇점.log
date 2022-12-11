@@ -1,0 +1,24 @@
+﻿  main.cpp
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\이번 학기 평점은 몇점\이번 학기 평점은 몇점\main.cpp(20,16): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(190,54): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\이번 학기 평점은 몇점\이번 학기 평점은 몇점\main.cpp(10): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<const std::string,float>::pair<const char(&)[3],double,0>(_Other1,_Other2 &&) noexcept(false)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=const char (&)[3],
+              _Other2=double
+          ]
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\이번 학기 평점은 몇점\이번 학기 평점은 몇점\main.cpp(4): message : 컴파일되는 함수 템플릿 인스턴스화 'std::pair<const std::string,float>::pair<const char(&)[3],double,0>(_Other1,_Other2 &&) noexcept(false)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Other1=const char (&)[3],
+              _Other2=double
+          ]
+  이번 학기 평점은 몇점.vcxproj -> C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\이번 학기 평점은 몇점\x64\Debug\이번 학기 평점은 몇점.exe

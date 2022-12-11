@@ -1,2 +1,2 @@
 ﻿  main.cpp
-  두~~부 두부 두부.vcxproj -> C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\두~~부 두부 두부\x64\Debug\두~~부 두부 두부.exe
+C:\Users\pumpk\Documents\GitHub\PumpK\C++\백준\두~~부 두부 두부\두~~부 두부 두부\main.cpp(12,1): fatal  error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?

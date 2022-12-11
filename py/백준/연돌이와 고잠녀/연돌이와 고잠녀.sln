@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "연돌이와 고잠녀", "연돌이와 고잠녀\연돌이와 고잠녀.pyproj", "{940DE294-988F-4FF7-B41C-5A2F9EB0E4D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{940DE294-988F-4FF7-B41C-5A2F9EB0E4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940DE294-988F-4FF7-B41C-5A2F9EB0E4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E70AD36E-740A-42C8-8B70-824B95CD6886}
+	EndGlobalSection
+EndGlobal
