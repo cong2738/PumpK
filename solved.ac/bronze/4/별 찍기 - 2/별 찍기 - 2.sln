@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "별 찍기 - 2", "별 찍기 - 2\별 찍기 - 2.pyproj", "{7190E97E-70EF-4DB9-A6D0-8F7770B31877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7190E97E-70EF-4DB9-A6D0-8F7770B31877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7190E97E-70EF-4DB9-A6D0-8F7770B31877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7269AB01-FF14-40A3-82F0-CC3E99454916}
+	EndGlobalSection
+EndGlobal

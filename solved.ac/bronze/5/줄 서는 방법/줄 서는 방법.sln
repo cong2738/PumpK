@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "줄 서는 방법", "줄 서는 방법\줄 서는 방법.pyproj", "{F1E682F4-7E05-4CED-9E34-9FCD607E67C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E682F4-7E05-4CED-9E34-9FCD607E67C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E682F4-7E05-4CED-9E34-9FCD607E67C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C518B02-6EF7-47EA-965E-BA914CD1046E}
+	EndGlobalSection
+EndGlobal

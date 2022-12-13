@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "문자열 반복", "문자열 반복\문자열 반복.pyproj", "{FEAC5311-57A2-4933-A3FF-C5EF2798864F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAC5311-57A2-4933-A3FF-C5EF2798864F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAC5311-57A2-4933-A3FF-C5EF2798864F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D60E535-7131-4F57-A58E-CAA2C9431C35}
+	EndGlobalSection
+EndGlobal
