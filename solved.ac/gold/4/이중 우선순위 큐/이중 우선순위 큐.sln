@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "이중 우선순위 큐", "이중 우선순위 큐\이중 우선순위 큐.vcxproj", "{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}.Debug|x64.ActiveCfg = Debug|x64
+		{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}.Debug|x64.Build.0 = Debug|x64
+		{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}.Debug|x86.Build.0 = Debug|Win32
+		{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}.Release|x64.ActiveCfg = Release|x64
+		{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}.Release|x64.Build.0 = Release|x64
+		{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}.Release|x86.ActiveCfg = Release|Win32
+		{CF9BB332-0ECD-4BDB-9C30-04DBC0179E6C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F181AD7-F124-49CA-8E20-F31A5DC439B2}
+	EndGlobalSection
+EndGlobal
