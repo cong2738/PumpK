@@ -1,0 +1,17 @@
+from collections import deque
+def decode(x):
+    decoded = x[0]-x[1]
+    if decoded >26: decoded -= 26
+    elif decoded < 0: decoded += 26
+    return decoded
+
+origin = [ord(char) - ord('A') + 1 for char in input()]
+trans = [ord(char) - ord('A') + 1 for char in input()]
+trans_key = deque()
+decoded = map(decode,zip(trans,origin))
+decoded = ''.join(list(map(lambda x:chr(x+ord('A')-1),decoded)))
+for index in range(len(decoded)):
+    ret = decoded[:index]
+    tmp = decoded.replace(ret,'')
+    if not tmp: break
+print(ret)
