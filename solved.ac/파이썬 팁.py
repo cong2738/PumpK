@@ -5,9 +5,9 @@ class pumpK:
     write = sys.stdout.write 
     sys.setrecursionlimit(1000000) 
    
-    '''*2???? ??? ???????'''
-    def slice_2D_list(board,x,y,nx,ny):        
-        [line[x:x+nx] for line in board[y:y+ny]]
+    '''*slice 2D list'''
+    def slice_2D_list(board,x,y,dx,dy):        
+        [line[x:x+dx] for line in board[y:y+dy]]
 
     import heapq # Min_heap
     L = list()
@@ -15,8 +15,7 @@ class pumpK:
     heapq.heapify(L)
     heapq.heappush(L,num) 
     heapq.heappop(L)    
-    heapq.heappush(L,(-num,num)) #heapq를 사용하여 max_heap을 쓰는 트릭
-
+    heapq.heappush(L,(-num,num)) #max_hip by using heapq
 from collections import deque 
 List = [1,111,11,1111,22222,6,4,21]
 print(List)
