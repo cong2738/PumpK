@@ -1,0 +1,6 @@
+V = int(input())
+vote = input()
+ctA = vote.count('A')
+ctB = vote.count('B')
+if ctA ==ctB: print('Tie')
+else: print('A' if ctA > ctB else 'B')
