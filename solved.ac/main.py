@@ -1,18 +1,4 @@
-def slice2d(pap,x,y,dx,dy): 
-    return [line[x:x+dx] for line in pap[y:y+dy]]
-n = 9
-a = [
-    [1,2,3,4,5,6,7,8,9],
-    [1,2,3,4,5,6,7,8,9],
-    [1,2,3,4,5,6,7,8,9],
-    [0,0,0,0,0,0,0,0,0],
-    [0,1,0,0,2,0,0,3,0],
-    [0,0,0,0,0,0,0,0,0],
-    [1,0,1,2,0,2,3,0,3],
-    [0,1,0,0,2,0,0,3,0],
-    [0,0,0,0,0,0,0,0,0]
-]
-for x in range(3):
-    for y in range(3):
-        print(*slice2d(a,x*3,y*3,3,3),sep='\n')
-        print()
+import sys
+readline = sys.stdin.readline
+for i in range(1,int(readline())+1):
+    print(f'Case #{i}: {sum(map(int,readline().split()))}')
