@@ -1,10 +1,12 @@
 import sys
 from string import ascii_uppercase as au
+
 alp = au.replace('J','')
 readline = sys.stdin.readline
 origin = readline().rstrip()
 key_map = dict()
 key_board = [['0']*5 for _ in range(5)]
+
 idx = 0
 for c in readline().rstrip()+alp:
     if c in key_map: continue
@@ -26,9 +28,8 @@ while idx < len(origin):
         idx+=1
 
 res = ''
-for pair in trans:
-    a,b = pair
-    (alow,acol),(blow,bcol) = map(lambda c:key_map[c],pair)
+for a,b in trans:
+    (alow,acol),(blow,bcol) = map(lambda c:key_map[c],(a,b))
     if key_map[a][0] == key_map[b][0]:
         a = key_board[alow][(acol+1)%5]
         b = key_board[blow][(bcol+1)%5]
