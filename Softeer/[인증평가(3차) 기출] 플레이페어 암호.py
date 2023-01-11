@@ -1,14 +1,12 @@
 import sys
 from string import ascii_uppercase as au
-
-alp = au.replace('J','')
 readline = sys.stdin.readline
+
 origin = readline().rstrip()
 key_map = dict()
 key_board = [['0']*5 for _ in range(5)]
-
 idx = 0
-for c in readline().rstrip()+alp:
+for c in readline().rstrip()+au.replace('J',''):
     if c in key_map: continue
     key_map[c] = (idx//5,idx%5)
     key_board[idx//5][idx%5] = c
