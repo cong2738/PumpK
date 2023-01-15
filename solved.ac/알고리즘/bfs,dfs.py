@@ -9,7 +9,7 @@ def dfs(p):
         if not visited[np]: dfs(np)
 
 bfsret = []
-def bfs(p):
+def bfs(p): 
     visited[p]= True
     q = [p]
     while q:
