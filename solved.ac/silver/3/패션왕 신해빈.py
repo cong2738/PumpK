@@ -1,12 +1,5 @@
-from itertools import combinations as cb
 import sys
 readline = sys.stdin.readline
-
-def mult_all(L:iter):
-    ret = 1
-    for x in L:
-        ret *= x
-    return ret
 
 for _ in range(int(readline())):
     drawer = dict()
@@ -17,3 +10,7 @@ for _ in range(int(readline())):
             category.append(part)
             drawer[part] = 0
         drawer[part] += 1
+    res = 1
+    for x in drawer.values():
+        res *= x+1
+    print(res - 1)
