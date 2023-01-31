@@ -1,3 +1,2 @@
-from itertools import combinations_with_replacement as pm
-ex_shape = pm([(0,0),(0,1),(0,2),(1,1)],4)
-print(*ex_shape,sep='\n')
+test = [[1,2,3,4,5],[0],[0]]
+print(test[0].index(1))
