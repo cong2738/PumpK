@@ -3,19 +3,29 @@ trie(트라이): 여러개의 문자열을 기존 입력을 기반으로 빠르�
 데이터 접근 편의를 위해 각 노드와 자식 노드관계는 해시맵을 사용한다.
 '''
 class Pumkp_trie:    
-    def __init__(self,*words): 
-        self.triepush(*words)
-    
-    #트라이에 단어(들) 푸시
-    def triepush(self,*words):
+    def __init__(self,words): 
+        self.set_trie(words)
+
+    def set_trie(self,words):
         self.trie = dict()
-        for word in set(words):
+        for word in words:
             current_dict = self.trie
             for letter in word:
                 current_dict = current_dict.setdefault(letter, {})
-            current_dict[None] = None
-    
-    #트라이에 해당단어가 존재하는지 탐색
+
+    def triepush(self,word):
+        if not self.trie: 
+            self.set_trie(word)
+            return
+        current = self.trie
+        for c in word:
+            if c in current: 
+                current = current[c]
+                continue
+            current = current.setdefault(c,{})
+        current[None] = None
+            
+        
     def find(self,word):
         if not self.trie: return False
         current = self.trie
@@ -24,6 +34,5 @@ class Pumkp_trie:
             else: return False
         return True
 
-    #트라이를 반환
     def get(self): 
         return self.trie
