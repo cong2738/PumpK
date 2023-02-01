@@ -1,2 +1,3 @@
-test = [[1,2,3,4,5],[0],[0]]
-print(test[0].index(1))
+import sys
+d = {1:0,2:0}
+print(d.get(3))
