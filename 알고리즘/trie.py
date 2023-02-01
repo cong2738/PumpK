@@ -5,8 +5,8 @@ trie(트라이): 여러개의 문자열을 기존 입력을 기반으로 빠르�
 class Pumkp_trie:    
     def __init__(self,words): 
         self.set_trie(words)
-
-    def set_trie(self,words):
+    #words는 [[a,c],[b,a],[c,e],[e,d]] 같은 형태로 들어간다
+    def set_trie(self,words:iter[iter]):
         self.trie = dict()
         for word in words:
             current_dict = self.trie
