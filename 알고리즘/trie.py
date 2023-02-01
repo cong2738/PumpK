@@ -17,12 +17,13 @@ class Pumkp_trie:
     
     #트라이에 해당단어가 존재하는지 탐색
     def find(self,word):
+        if not self.trie: return False
         current = self.trie
         for c in word:
             if c in current: current = current[c]
             else: return False
         return True
-    
+
     #트라이를 반환
     def get(self): 
         return self.trie
