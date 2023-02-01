@@ -22,7 +22,7 @@ class Pumkp_trie:
             if c in current: current = current[c]
             else: return False
         return True
-
+    
     #트라이를 반환
     def get(self): 
         return self.trie
