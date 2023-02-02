@@ -19,10 +19,8 @@ class Pumkp_trie:
             return
         current = self.trie
         for c in word:
-            if c in current: 
-                current = current[c]
-                continue
-            current = current.setdefault(c,{})
+            if not c in current: current[c] = dict()
+            current = current[c]
         current[None] = None
             
         
