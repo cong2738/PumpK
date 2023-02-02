@@ -10,8 +10,8 @@ class Pumkp_trie:
         self.trie = dict()
         for word in words:
             current_dict = self.trie
-            for letter in word:
-                current_dict = current_dict.setdefault(letter, {})
+            for node in word:
+                current_dict = current_dict.setdefault(node, {})
 
     def triepush(self,word):
         if not self.trie: 
