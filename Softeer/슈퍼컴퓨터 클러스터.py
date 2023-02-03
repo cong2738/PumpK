@@ -20,4 +20,4 @@ while(min <= max):
             break
     if possible: min = mid+1
     else: max = mid-1
-print(mid,max)
+print(max)
