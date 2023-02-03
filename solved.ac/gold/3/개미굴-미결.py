@@ -15,11 +15,10 @@ class Pumkp_trie:
             return
         current = self.trie
         for c in word:
-            if c in current: 
-                current = current[c]
-                continue
-            current = current.setdefault(c,{})
-        current[None] = None
+            if not c in current:
+                 current_dict = current_dict.setdefault(c, {})
+            current = current[c]                
+            
             
         
     def find(self,word):

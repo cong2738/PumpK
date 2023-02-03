@@ -5,24 +5,22 @@ trie(트라이): 여러개의 문자열을 기존 입력을 기반으로 빠르�
 class Pumkp_trie:    
     def __init__(self,words): 
         self.set_trie(words)
-    #words는 [[a,c],[b,a],[c,e],[e,d]] 같은 형태로 들어간다
+    #words: [[a,c],[b,a],[c,e],[e,d]]
     def set_trie(self,words:iter[iter]):
         self.trie = dict()
         for word in words:
             current_dict = self.trie
             for node in word:
-                current_dict = current_dict.setdefault(node, {})
-
+                current_dict[node] = {}
+    #word: [a,c]
     def triepush(self,word):
-        if not self.trie: 
+        if not self.trie:
             self.set_trie(word)
             return
         current = self.trie
         for c in word:
-            if not c in current: current[c] = dict()
+            if not c in current: current[c] = {}
             current = current[c]
-        current[None] = None
-            
         
     def find(self,word):
         if not self.trie: return False
