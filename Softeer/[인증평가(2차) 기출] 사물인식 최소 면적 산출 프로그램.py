@@ -22,6 +22,5 @@ for i in range(N):
     x,y,color = map(int,readline().split())
     dots[color].append((x,y))
 #첫번째 색의 모든 점에대해 탐색을 실시한다
-for sx,sy in dots[1]:
-    dfs(sx,sy,sx,sy,1,0)
+for sx,sy in dots[1]: dfs(sx,sy,sx,sy,1,0)
 print(res)
