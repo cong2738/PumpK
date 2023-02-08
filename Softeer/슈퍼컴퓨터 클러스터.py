@@ -10,14 +10,14 @@ k = a.keys()
 while(min <= max):
     cost = 0
     mid = int((max+min)/2)
-    possible = True
+    isleft = True
     for n in k:
         if mid <= n: continue
         temp = mid - n
         cost += a[n] * temp**2
         if B < cost:
-            possible = False
+            isleft = False
             break
-    if possible: min = mid+1
+    if isleft: min = mid+1
     else: max = mid-1
 print(max)
