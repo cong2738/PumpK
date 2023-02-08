@@ -3,7 +3,7 @@ from itertools import combinations
 readline = sys.stdin.readline
 sys.setrecursionlimit(100000)
 res = float('inf')
-#첫번째 색(1)의 임의의 점하나를 시작으로 다음 색의 모든 점에대해 탐색하며 모든 색을 가진 크기가 (K)인 그룹을 만든경우 직사각형의 넓이를 확인한다. 모든 점에대해 반복한다
+#첫번째 색(1)의 임의의 점하나를 시작으로 다음 색의 모든 점에대해 탐색하며 모든 색을 가진 크기가 K인 그룹(각 색의 점 한개씩 가진 그룹)을 만든 직사각형의 넓이를 확인한다. 모든 점에대해 반복한다
 def dfs(mx,my,Mx,My,color,current):
     global res
     if color == K:
