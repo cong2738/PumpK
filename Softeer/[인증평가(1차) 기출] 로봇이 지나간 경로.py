@@ -27,7 +27,7 @@ while True:
         nx,ny = x+2*dx,y+2*dy
         if (0 <= nx < W and 0 <= ny < H and board[y+dy][x+dx] == '#'):
             board[y+dy][x+dx] = '.'
-            board[y+2*dy][x+2*dx] = '.'
+            board[ny][nx] = '.'
             res += 'A' if ahead == i else 'LA' if (ahead+1)%4 == i else 'RA'
             x,y,ahead = nx,ny,i
             break
