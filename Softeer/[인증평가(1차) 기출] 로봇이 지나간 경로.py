@@ -25,13 +25,11 @@ res = ''
 while True:
     for i,(dx,dy) in enumerate(around):
         nx,ny = x+2*dx,y+2*dy
-        if not (0 <= nx < W and 0 <= ny < H and board[y+dy][x+dx] == '#'): continue
-        board[y+dy][x+dx] = '.'
-        board[y+2*dy][x+2*dx] = '.'
-        if ahead == i: res += 'A'
-        elif (ahead+1)%4 == i: res += 'LA'
-        else: res += 'RA'
-        x,y,ahead = nx,ny,i
-        break
+        if (0 <= nx < W and 0 <= ny < H and board[y+dy][x+dx] == '#'):
+            board[y+dy][x+dx] = '.'
+            board[y+2*dy][x+2*dx] = '.'
+            res += 'A' if ahead == i else 'LA' if (ahead+1)%4 == i else 'RA'
+            x,y,ahead = nx,ny,i
+            break
     else: break
 print(res)
