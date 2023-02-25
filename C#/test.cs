@@ -9,8 +9,12 @@
             D1[x] = ++num;
         }
         Console.WriteLine(res);
-        foreach(var x in D1){
-            Console.WriteLine(x);
+        foreach(var items in D1){
+            D1[items.Key] = 0;
+            Console.WriteLine(items);
+        }
+        foreach(var items in D1){
+            Console.WriteLine(items);
         }
     }
 }
