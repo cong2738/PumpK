@@ -28,3 +28,4 @@ for i in range(1,N+1):
         if d == float('inf'): continue
         s += d
     print(s)
+
