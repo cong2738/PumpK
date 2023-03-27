@@ -1,20 +1,23 @@
-def solution(scores):
-    answer = 1
+def solution(n, results):
+    answer = 0
 
-    target = scores[0]
-    target_score = sum(scores[0])
-    print(sorted(scores,key=lambda x:-sum(x)))
-    scores.sort(key=lambda x: (-x[0],x[1]))
-    print(scores)
+    graph = {i:[set(),set()] for i in range(1,n+1)}
 
-    threshold = 0
-    for score in scores:
-        if target[0] < score[0] and target[1] < score[1]:
-            return -1
-        if threshold <= score[1]:
-            if target_score < score[0] + score[1]:
-                answer += 1
-            threshold = score[1]
+    for w,l in results:
+        graph[w][0].add(l)
+        graph[l][1].add(w)
+    
+    for p in range(1,n+1):
+        for l in graph[p][0]:
+            graph[l][1] |= graph[p][1]
+        
+        for w in graph[p][1]:
+            graph[w][0] |= graph[p][0]
+    
+    for p,(win,lose) in graph.items():
+        if len(win) + len(lose) == n-1: answer += 1
+
+    for i in graph:
+        print(graph[i])
+
     return answer
-
-print(solution([[2,2],[1,4],[3,2],[3,2],[2,1]]))

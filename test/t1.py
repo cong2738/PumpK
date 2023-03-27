@@ -1,23 +1,11 @@
-from collections import defaultdict as dd, deque as dq
+import heapq as hq
 
-def bfs(p,graph):
-     visited = dd(int)
-     visited[p] = 0
-     Q = dq([(p,0)])
-     while Q:
-          p,cnt = Q.popleft()
-          for np in graph[p]:
-               if not np in visited:
-                    Q.append((np,cnt+1))
-                    visited[np] = cnt+1
-     return visited
+def solution(food_times, K):
+    hq.heapify(food_times)
+    n = len(food_times)
 
-def solution(n, roads, sources, destination):
-     graph = dd(set)
-     for n1,n2 in roads:
-          graph[n1].add(n2)
-          graph[n2].add(n1)
-     root = bfs(destination,graph)
-     return [root[p] if p in root else -1 for p in sources]
+    for cnt in range(n):
+        if len(food_times) == 1 or food_times[0] >= K: break
+        hq.heappush(food_times, hq.heappop(food_times) + 2*hq.heappop(food_times))
 
-print(solution(3,[[1, 2], [2, 3]],	[2, 3],1))
+    return cnt if food_times[0] >= K else -1
