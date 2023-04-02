@@ -1,4 +1,4 @@
-a = list(range(20))
+a = {1:1,2:2}
+b = {1:1,2:1}
 
-for i in range(0,20,5):
-    print(a[i:i+5])
+if a == b: print('ab')

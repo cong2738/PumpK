@@ -1,0 +1,1 @@
+print(*[(lambda A,B:f'{A} & {B} are {"NOT " if sorted(A) == sorted(B) else ""}anagrams.')(*input().split()) for _ in range(int(input()))],sep='\n')

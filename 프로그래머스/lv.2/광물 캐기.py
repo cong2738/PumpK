@@ -1,24 +1,17 @@
 def solution(picks, minerals):
-    scores = [
-        {"diamond":3,"iron":2,"stone":1},
-        {"diamond":25,"iron":5,"stone":1},
-        {"diamond":5,"iron":2,"stone":1},
-        {"diamond":1,"iron":1,"stone":1},        
-    ]
-    
-    m5 = []
-    answer = 0
-    for i in range(0,len(minerals),5):
-        m5.append(minerals[i:i+5])
+    Fatigue = [
+        {"diamond":1,"iron":1,"stone":1}, 
+        {"diamond":5,"iron":1,"stone":1}, 
+        {"diamond":25,"iron":5,"stone":1}, ]
 
-    m5.sort(reverse=True, key=lambda x:sum(map(lambda i:scores[0][i],x)))
-    print(m5)
+    picks_num = sum(picks)
+    picks = [0]*picks[0]+[1]*picks[1]+[2]*picks[2]
 
-    for _,line in m5:
+    m5 = sorted([minerals[5*i:5*i+5] for i in range(picks_num)],reverse=True,key=lambda x:sum(map(lambda i:Fatigue[2][i],x)))
 
+    res = 0
+    for i in range(picks_num):
+        if not m5[i]: break
+        res += sum(map(lambda minerals:Fatigue[picks[i]][minerals],m5[i]))
 
-    return answer
-
-picks = [1, 3, 2]
-minerals = ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]
-solution(picks,minerals)
+    return res
