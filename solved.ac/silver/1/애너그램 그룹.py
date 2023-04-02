@@ -10,4 +10,4 @@ anagram = [sorted(val) for val in data.values()]
 anagram.sort(key=lambda x:(-len(x),x))
 
 for group in anagram[:5]:
-   print(f'Group of size {len(group)}: {" ".join([elem for elem in sorted(list(set(group)))])} .')
+   print(f'Group of size {len(group)}: {" ".join(sorted(list(set(group))))} .')

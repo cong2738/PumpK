@@ -16,6 +16,7 @@ int main(void) {
 			data[key].push_back(word);
 		}
 	}
+	
 	vector<vector<string>> anagram;
 	for (auto [key,val] : data) {
 		sort(val.begin(), val.end());
