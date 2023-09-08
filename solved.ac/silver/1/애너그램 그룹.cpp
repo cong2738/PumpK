@@ -17,10 +17,11 @@ int main(void) {
 		}
 	}
 
-	vector<vector<string>> anagram;
+	int index = 0;
+	vector<vector<string>> anagram(data.size());
 	for (auto [key,val] : data) {
 		sort(val.begin(), val.end());
-		anagram.push_back(val);
+		anagram[index++] = val;
 	}
 	sort(anagram.begin(), anagram.end(),
 		[](const vector<string> a, const vector<string> b) {
