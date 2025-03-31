@@ -1,4 +1,2 @@
 def solution(myString):    
-    answer = myString.split("x")
-    while("" in answer): answer.remove("")
-    return sorted(answer)
+    return sorted([string for string in myString.split("x") if string])
