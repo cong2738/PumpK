@@ -1,6 +1,6 @@
 def solution(arr):
     stk = []
-    for i,n in enumerate(arr):
-        if stk and stk[-1]  == arr[i]: stk.pop()
+    for n in arr:
+        if stk and stk[-1]  == n: stk.pop()
         else: stk.append(n)
     return stk if stk else [-1]
