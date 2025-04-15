@@ -1,13 +1,14 @@
+
 def solution(l, r):
-    ret = []
-    def f(lim, val):
-        if lim == 0:
-            ret.append(val)
-            return
+    answer = []
+    i = 1
+    n = 5
 
-        f(lim - 1, val * 10 + 5)
-        f(lim - 1, val * 10)
+    while True:
+        if n > r: break
+        n = 5 * int(bin(i)[2:])
+        if l <= n <= r:
+            answer.append(n)
+        i += 1
 
-    f(6, 0)
-
-    return list(i for i in ret if l <= i <= r)[::-1] or [-1]
+    return [-1] if len(answer) == 0 else answer
